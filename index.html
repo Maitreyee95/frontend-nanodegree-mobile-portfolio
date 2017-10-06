@@ -21,13 +21,16 @@
       ga('create', 'UA-XXXX-Y');
       ga('send', 'pageview');
     </script>
-    <script src="http://www.google-analytics.com/analytics.js"></script>
+    <!-- async script -->
+    <script async src="http://www.google-analytics.com/analytics.js"></script>
     <script async src="js/perfmatters.js"></script>
   </head>
 
   <body>
     <header>
-      <a href="/"><img src="img/profilepic-min.jpg" style=""width: 100px; height: 50px;""></a>
+      <a href="/">
+        <!-- compressed image source-->
+        <img src="img/profilepic-min.jpg" style=""width: 100px; height: 50px;""></a>
       <p>Cameron Pittman<br><span>Course Developer</span></p>
     </header>
 
@@ -57,6 +60,7 @@
           </li>
 
           <li>
+            <!-- Compressing image source -->
             <img style="width: 100px;" src="views/images/pizzeria-min.jpg"  style="width: 100px; height: 50px;">
             <a href="views/pizza.html">Cam's Pizzeria</a>
             <p>Who wants a performant pizza?</p>
