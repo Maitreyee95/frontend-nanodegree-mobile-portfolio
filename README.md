@@ -58,3 +58,9 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
 
 * pizza.html has script that makes it run in 60fps.
 * index.html has a score above 90 in pagespeed insights
+
+
+### How to run
+
+* Clone this repository
+* Open index.html in your browser
